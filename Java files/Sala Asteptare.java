@@ -7,7 +7,16 @@ public class Sala Asteptare implements Cladire {
   public ArrayList<Integer> idAnimal;
 
   public Integer verificareLocuriLibere() {
-  return null;
   }
+  
+  @Override
+    public Integer suprafataCladire(){}
+
+@Override
+  public String adresa(){}
+@Override
+  public Integer spatiuUtilizabil(){}
+@Override
+  public Integer getIdCladire(){}
 
 }

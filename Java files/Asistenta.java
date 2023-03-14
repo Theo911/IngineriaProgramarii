@@ -1,6 +1,8 @@
 import java.util.Vector;
+import java.util.List;
+import java.util.ArrayList;
 
-public class Asistenta implements Persoana {
+public abstract class Asistenta implements Persoana {
 
   public Integer codUnic;
 
@@ -11,13 +13,10 @@ public class Asistenta implements Persoana {
   public ArrayList<String> listaPacienti;
 
 
-  public void verificarePacient( Integer idPacient) {
-  }
+  public void verificarePacient( Integer idPacient) {}
 
-  private void programarePacient( Integer idPacient) {
-  }
+  private void programarePacient( Integer idPacient) {}
 
-  public void preluarePacient( Integer idPacient) {
-  }
+  public void preluarePacient( Integer idPacient) {}
 
 }

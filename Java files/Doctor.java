@@ -1,4 +1,6 @@
 import java.util.Vector;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Doctor implements Persoana {
 
@@ -12,17 +14,28 @@ public class Doctor implements Persoana {
 
   public ArrayList<Integer> idPacienti;
 
-    public Vector  1..*;
-    public Vector  1..*;
-    public Vector  mySala Consultatii;
 
-  public void consultare( Integer) {
+  public void consultare( Integer idPacient) {
   }
 
-  private void diagnosticare( Integer) {
+  private void diagnosticare( Integer idPacient) {
   }
 
-  private void eliberareReteta( Integer) {
+  private void eliberareReteta( Integer idPacient) {
   }
-
+  
+  @Override
+	public void getProgramare() {}
+	
+  @Override
+	public void getAdresa() {}
+	
+	@Override
+  public void getNume(){}
+	@Override
+  public void getVarsta(){}
+	@Override
+  public void getID(){}
+@Override
+  public void getNrTelefon(){}
 }
