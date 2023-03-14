@@ -2,9 +2,7 @@ import java.util.Vector;
 
 public interface Cladire {
 
-    public Vector  myAdministratie;
-
-  private Integer suprafataCladire();
+  public Integer suprafataCladire();
 
   public String adresa();
 
